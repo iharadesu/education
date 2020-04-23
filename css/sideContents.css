@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.sideContents__insert{
+    width: 180px;
+    padding: 13px 0px;
+    text-align: center;
+}
+.sideContents__title{
+    font-size: 14px;
+}
+.sideContents__coupon{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 28px;
+}
+.sideContents__coupon:before{
+    position: absolute;
+    content: url(../images/icon_coupon.png);
+    left: -28px;
+}
+.sideContents__price{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+.sideContents__price:before{
+    position: absolute;
+    content: url(../images/icon_price.png);
+    top: -5px;
+    margin-left: -28px;
+}
+.sideContents__recommended{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+.sideContents__recommended:before{
+    position: absolute;
+    content: url(../images/icon_theme.png);
+    top: -5px;
+    margin-left: -28px;
+}
+.sideContents__add{
+    margin-top: 14px;
+}
+.sideContents__imageLink{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.sideContents__imageLink:before{
+    position: absolute;
+    content: url(../images/icon_arrow_next.png);
+    top: 2px;
+    left: -10px;
+}

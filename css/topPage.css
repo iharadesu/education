@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.topPage{
+    font-family:'メイリオ';
+    font-size: 12px;
+    color: #333333;
+}
+.topPage__header{
+    width: 950px;
+    margin-left: 20px;
+    padding: 0px;
+}
+.topPage__insert{
+    background-color: #EEEEEE;
+    color: #666666;
+    font-size: 12px;
+}
+.topPage__mainContents{
+    margin-left: 20px;
+    width: 740px;
+    float: left;
+}
+.topPage__sideContents{
+    width: 180px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.topPage__pageTopButton{
+    float: right;
+    margin-top: 635px;
+    margin-right: 20px;
+}

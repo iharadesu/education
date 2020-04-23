@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.featureSearch__title{
+    clear: left;
+    position: relative;
+    font-size: 16px;
+    margin-left: 42px;
+    padding-top: 13px;
+}
+.featureSearch__title:before{
+    position: absolute;
+    content: url(../images/icon_theme.png);
+    top: 8px;
+    left: -26px;
+}
+.featureSearch__contents{
+    background-color: #FFFFFF;
+    width: 732px;
+    height: 494px;
+    border-radius: 8px;
+    margin-top: 12px; 
+    margin-left: 4px;   
+}
+.featureSearch__subtitle{
+    clear: left;
+    position: relative;
+    font-size: 14px;
+    margin-left: 30px;
+    padding-top: 14px;
+}
+.featureSearch__subtitle:before{
+    position: absolute;
+    content: url(../images/icon_hed.png);
+    top: 8px;
+    left: -15px;
+}

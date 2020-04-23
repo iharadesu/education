@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.mainContents__insert{
+    width: 740px;
+    padding: 13px 0px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.mainContents__areaSearch{
+    background-color: #FDE3D4;
+    width: 291px;
+    height: 390px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.mainContents__dateSearch{
+    background-color: #EEEEEE;
+    width: 440px;
+    height: 390px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 9px;
+    border-radius: 5px;
+}
+.mainContents__keywordSearch{
+    clear: left;
+    width: 740px;
+    height: 105px;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.mainContents__genreSearch{
+    width: 740px;
+    height: 277px;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.mainContents__recentSearch{
+    width: 740px;
+    height: 219px;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.mainContents__featureSearch{
+    width: 740px;
+    height: 540px;
+    margin-top: 20px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}

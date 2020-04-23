@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.header__line{
+    width: 950px;
+    background-color: #FF6600;
+    height: 3px;
+    margin-top: -13px;
+    margin-bottom: 0px;
+}
+.header__title{
+    position: relative;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 37px;
+    float: left;
+}
+.header__title:before{
+    position: absolute;
+    content: url(../images/icon_activity.png);
+    top: -8px;
+    left: -28px;
+}
+.header__insert{
+    width: 710px;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 12px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 77px;
+}
+.header__carousel{
+    clear: left;
+    margin-top: 16px;
+}

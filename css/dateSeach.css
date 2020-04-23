@@ -1,0 +1,91 @@
+@charset "UTF-8";
+.dateSearch__title{
+    position: relative;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 33px;
+}
+.dateSearch__title:before{
+    position: absolute;
+    content: url(../images/icon_holiday.png);
+    top: -7px;
+    left: -26px;
+}
+.dateSearch__contents{
+    background-color: #FFFFFF;
+    width: 432px;
+    height: 244px;
+    margin-top: 8px;
+    margin-left: 4px;
+    border-radius: 8px;
+}
+.dateSearch__form{
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+.dateSearch__formTitle{
+    width: 50px;
+    text-align: left;
+    clear: left;
+}
+.dateSearch__arealist{
+    list-style-type: none;
+}
+.dateSearch__area{
+    display: inline-block;
+    vertical-align: top;
+}
+.dateSearch__area:not(:first-child):before{
+    content: "＞";
+}
+.dateSearch__area--long{
+    width: 61px;
+}
+.dateSearch__calendar:after{
+    content: url(../images/icon_calendar.png);
+}
+.dateSearch__genreList{
+    list-style-type: none;
+}
+.dateSearch__genre{
+    display: inline-block;
+    vertical-align: top;
+}
+.dateSearch__genre:not(:first-child):before{
+    content: "＞";
+}
+.dateSearch__genre--long{
+    width: 108px;
+}
+.dateSearch__result{
+    margin-left: 138px;
+    margin-top: 12px;
+}
+.dateSearch__count{
+    font-size: 16px;
+    color: #FF6600;
+
+}
+.dateSearch__clear{
+    background: none;
+	border: none;
+    outline: none;
+    color: #1B47FF;
+    text-decoration: underline;
+    margin-left: 154px;
+    margin-top: 9px;
+}
+
+.dateSearch__button{
+    text-decoration: none;
+    border: solid 1px #0160C3;
+    background-color: #046FDD;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 420px;
+    height: 35px;
+    margin-top: 11px;
+    margin-left: 10px;
+}

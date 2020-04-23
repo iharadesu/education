@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.areaSearch__title{
+    position: relative;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.areaSearch__title:before{
+    position: absolute;
+    content: url(../images/icon_map.png);
+    top: -10px;
+    left: -30px;
+}
+.areaSearch__contents{
+    clear: left;
+    background-color: #FFFFFF;
+    width: 283px;
+    height: 344px;
+    margin-top: 10px;
+    margin-left: 4px;
+    border-radius: 8px;
+}
+.areaSearch__lists{
+    list-style-type: none;
+}
+.areaSearch__list{
+    padding-top: 8px;
+    padding-left: 6px;
+}
+.areaSearch__region{
+    border-left: solid 4px #AAAAAA;/*左線*/
+    height: 19px;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+.areaSearch__childList{
+    list-style-type: none;
+    padding-top: 5px;
+}
+.areaSearch__prefecture{
+    display: inline;
+
+}
+.areaSearch__prefecture:not(:first-child){
+    border-left: solid 2px #CCCCCC;/*左線*/
+    padding-left: 4px;
+
+}
+

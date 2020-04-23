@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.recommended__imageList{
+    list-style-type: none;
+}
+.recommended__image{
+    float: left;
+    width: 135px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.recommended__imageLink{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.recommended__imageLink:before{
+    position: absolute;
+    content: url(../images/icon_arrow_next.png);
+    top: 2px;
+    left: -10px;
+}

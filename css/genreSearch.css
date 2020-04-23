@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.genreSearch__title{
+    position: relative;
+    font-size: 16px;
+    margin-left: 37px;
+    padding-top: 13px;
+}
+.genreSearch__title:before{
+    position: absolute;
+    content: url(../images/icon_genre.png);
+    top: 7px;
+    left: -25px;
+}
+.genreSearch__contents{
+    background-color: #FFFFFF;
+    width: 732px;
+    height: 231px;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 4px; 
+}   
+.genreSearch__imageList{
+    list-style-type: none;
+}
+.genreSearch__image{
+    float: left;
+    width: 135px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.genreSearch__list{
+    clear: left;
+    width: 639px;
+    list-style-type: none;
+    margin-left: 30px;
+}
+.genreSearch__genreName{
+    float: left;
+    padding-top: 11px;
+    margin-left: 20px;
+}
+.genreSearch__genreLink{
+    border-right: solid 2px #CCCCCC;/*左線*/
+    padding-right: 20px;
+}
+.genreSearch__imageLink{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+}
+.genreSearch__imageLink:before{
+    position: absolute;
+    content: url(../images/icon_arrow_next.png);
+    top: 2px;
+    left: -10px;
+}

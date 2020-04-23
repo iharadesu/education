@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.scene__title{
+    clear: left;
+}
+.scene__imageList{
+    list-style-type: none;
+    margin-left: -4px;
+    margin-top: -9px;
+}
+.scene__image{
+    float: left;
+    width: 228px;
+    margin-left: 14px;
+    margin-top: 19px;
+}
+.scene__imageLink{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.scene__imageLink:before{
+    position: absolute;
+    content: url(../images/icon_arrow_next.png);
+    top: 5px;
+    left: -10px;
+}
